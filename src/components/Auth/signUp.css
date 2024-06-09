@@ -1,0 +1,65 @@
+.auth-form {
+    max-width: 400px;
+    margin: 5% auto; 
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .auth-form .email,
+  .auth-form .password1,
+  .auth-form .password2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form .email input:focus,
+  .auth-form .password1 input:focus,
+  .auth-form .password2 input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* outline: none; */
+  }
+  
+  .auth-form Button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .auth-form Button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .auth-form Button:active {
+    background-color: #004494;
+    box-shadow: none;
+  }
+
+  .section1{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  
